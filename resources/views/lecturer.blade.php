@@ -13,7 +13,7 @@
                             {{ __('Edit Attendance') }}
                         </x-dropdown-link>
                           
-                        <x-dropdown-link :href="route('Attendance')">
+                        <x-dropdown-link :href="progresschanger">
                             {{ __('Edit Student marks') }}
                         </x-dropdown-link>
 
