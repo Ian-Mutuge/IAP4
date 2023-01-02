@@ -13,11 +13,11 @@
                             {{ __('View Attendance') }}
                         </x-dropdown-link>
                           
-                        <x-dropdown-link :href="route('Attendance')">
+                        <x-dropdown-link :href="progresschanger">
                             {{ __('Progress report') }}
                         </x-dropdown-link>
 
-                        <x-dropdown-link :href="route('Attendance')">
+                        <x-dropdown-link :href="courses">
                             {{ __('Select Units') }}
                         </x-dropdown-link>
 
