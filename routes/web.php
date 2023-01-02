@@ -59,5 +59,16 @@ Route::get('/email',function() {
   
 });
 
+Route::get('/', [view::class, 'views']);
+Route::get('/progresschanger', [view::class, 'viewsChanger']);
+Route::get('click_edit/{id}',[view::class,'edit_function']);
+Route::post('click_edit',[view::class,'update_function']);
+Route::get('click_delete/{id}',[view::class,'delete_function']);
+Route::get('/courses', [view::class, 'courseview']);
+Route::get('click_select/{id}',[view::class,'select_function']);
+Route::get('/choosecourse', [view::class, 'choosecourseview']);
+Route::post('click_select',[view::class,'add_function']);
+
+
 
 
