@@ -42,8 +42,6 @@
 </table>
 </div>
 <div>
-<a href="progresschanger">Switch</a>
-<a href="courses">Course</a>
 </div>
 </body>
 </html>
