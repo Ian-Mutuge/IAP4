@@ -61,7 +61,7 @@ Route::get('/email',function() {
 
 
 
-Route::get('/', [view::class, 'views']);
+Route::get('/progress', [view::class, 'views']);
 Route::get('/progresschanger', [view::class, 'viewsChanger']);
 Route::get('click_edit/{id}',[view::class,'edit_function']);
 Route::post('click_edit',[view::class,'update_function']);
