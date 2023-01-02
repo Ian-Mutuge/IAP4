@@ -13,7 +13,7 @@
                             {{ __('View Attendance') }}
                         </x-dropdown-link>
                           
-                        <x-dropdown-link :href="">
+                        <x-dropdown-link :href="progress">
                             {{ __('Progress report') }}
                         </x-dropdown-link>
 
